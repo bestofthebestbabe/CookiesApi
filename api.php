@@ -1,6 +1,6 @@
 <?php
    
-    require_once('./files/config.php');
+    require_once('files/config.php');
    
     $response = array();
     // $file_name = "text.txt"; // Automatically create (with a text file)
