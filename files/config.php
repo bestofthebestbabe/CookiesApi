@@ -1,6 +1,6 @@
 <?php
 
-DEFINE ('DB_HOSTNAME', 'localhost');
+
 DEFINE ('DB_DATABASE', 'tutunova');
 DEFINE ('DB_USERNAME', 'root');
 DEFINE ('DB_PASSWORD', '');
