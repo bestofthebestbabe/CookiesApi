@@ -1,0 +1,15 @@
+network:
+    version: 2
+    ethernets:
+        ens160:
+            addresses:
+                - 185.141./32
+            nameservers:
+                addresses:
+                    - 1.1.1.1
+                search: []
+            optional: true
+            routes:
+                - to: 0.0.0.0/0
+                  via: 172.27.4.
+                  on-link: true
